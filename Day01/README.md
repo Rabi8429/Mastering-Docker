@@ -89,6 +89,6 @@ Port forwarding: docker run --rm -d --name app1 -p 8000:80 nginx:latest
 
 View logs: docker logs app1 -f
 
-Check log file inside docker drive > go to dcokerdrive where your docker conatiner data, logs stored
+Check log file inside docker drive > go to docker drive where your docker conatiner data, logs stored
 /var/liv/docker > select conatiner and go to log file: cat <log file> | jq
    
